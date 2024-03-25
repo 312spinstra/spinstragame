@@ -1,0 +1,2 @@
+Difficulty,Question,Answer,Feedback,Incorrect1,Incorrect2,Incorrect3
+0,What is the command to see ALL files in your current directory?,ls -a,ls shows the files in your current directory and the flag of -a shows all files.

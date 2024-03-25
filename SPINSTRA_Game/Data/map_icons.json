@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Battle",
+        "assetPath": "Assets/Map_Icons/Battle_Room.png"
+    },
+    {
+        "name": "Treasure",
+        "assetPath": "Assets/Map_Icons/Treasure_Room.png"
+    },
+    {
+        "name": "Key",
+        "assetPath": "Assets/Map_Icons/Treasure_Room.png"
+    },
+    {
+        "name": "Mystery",
+        "assetPath": "Assets/Map_Icons/Mystery_Room.png"
+    },
+    {
+        "name": "Boss",
+        "assetPath": "Assets/Map_Icons/Boss_Room.png"
+    }
+]

@@ -1,0 +1,134 @@
+[
+    {
+        "name": "Knight",
+        "skill": "idk",
+        "description": "The Knight class has the 'Righteous Defense' special ability, which prevents them from taking damage from the next successful enemy attack - very useful if you're in a tight spot.",
+        "assetPath": "Assets/Heroes/Knight/",
+        "specialAbility": {
+            "name": "Righteous Defense",
+            "uses": 1
+        },
+        "animations": [
+            {
+                "name": "Idle",
+                "path": "Assets/Heroes/Knight/Idle/",
+                "source": "Idle.png",
+                "frames": "frames.json",
+                "scale": 1.4,
+                "FPS": 12
+            },
+            {
+                "name": "Attack",
+                "path": "Assets/Heroes/Knight/Attack/",
+                "source": "Attack.png",
+                "frames": "frames.json",
+                "scale": 1.25,
+                "FPS": 15
+            },
+            {
+                "name": "Death",
+                "path": "Assets/Heroes/Knight/Death/",
+                "source": "Death.png",
+                "frames": "frames.json",
+                "scale": 1.25,
+                "FPS": 6
+            },
+            {
+                "name": "Hit",
+                "path": "Assets/Heroes/Knight/Hit/",
+                "source": "Hit.png",
+                "frames": "frames.json",
+                "scale": 1.25,
+                "FPS": 10
+            }
+        ]
+    },
+    {
+        "name": "Wizard",
+        "skill": "idk",
+        "description": "The Wizard class has the 'Second Chance' special ability, which gives them a second attempt at answering the next question they get wrong, giving more opportunity to damage the enemy.",
+        "assetPath": "Assets/Heroes/Wizard/",
+        "specialAbility": {
+            "name": "Second Chance",
+            "uses": 1
+        },
+        "animations": [
+            {
+                "name": "Idle",
+                "path": "Assets/Heroes/Wizard/Idle/",
+                "source": "Idle.png",
+                "frames": "frames.json",
+                "scale": 0.75,
+                "FPS": 10
+            },
+            {
+                "name": "Attack",
+                "path": "Assets/Heroes/Wizard/Attack/",
+                "source": "Attack.png",
+                "frames": "frames.json",
+                "scale": 0.75,
+                "FPS": 10
+            },
+            {
+                "name": "Death",
+                "path": "Assets/Heroes/Wizard/Death/",
+                "source": "Death.png",
+                "frames": "frames.json",
+                "scale": 0.75,
+                "FPS": 10
+            },
+            {
+                "name": "Hit",
+                "path": "Assets/Heroes/Wizard/Hit/",
+                "source": "Hit.png",
+                "frames": "frames.json",
+                "scale": 0.75,
+                "FPS": 10
+            }
+        ]
+    },
+    {
+        "name": "Thief",
+        "skill": "idk",
+        "description": "The Thief class has the 'Sneak Attack' special ability, which enables them to immediately damage the enemy with 100% chance of success.",
+        "assetPath": "Assets/Heroes/Thief/",
+        "specialAbility": {
+            "name": "Sneak Attack",
+            "uses": 1
+        },
+        "animations": [
+            {
+                "name": "Idle",
+                "path": "Assets/Heroes/Thief/Idle/",
+                "source": "Idle.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 10
+            },
+            {
+                "name": "Attack",
+                "path": "Assets/Heroes/Thief/Attack/",
+                "source": "Attack.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 10
+            },
+            {
+                "name": "Death",
+                "path": "Assets/Heroes/Thief/Death/",
+                "source": "Death.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 10
+            },
+            {
+                "name": "Hit",
+                "path": "Assets/Heroes/Thief/Hit/",
+                "source": "Hit.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 10
+            }
+        ]
+    }
+]

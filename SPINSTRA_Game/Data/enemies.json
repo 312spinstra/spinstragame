@@ -1,0 +1,116 @@
+[
+    {
+        "name": "Skeleton",
+        "assetPath": "Assets/Enemies/Skeleton/",
+        "animations": [
+            {
+                "name": "Idle",
+                "path": "Assets/Enemies/Skeleton/Idle/",
+                "source": "Idle.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 10
+            },
+            {
+                "name": "Attack",
+                "path": "Assets/Enemies/Skeleton/Attack/",
+                "source": "Attack.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 20
+            },
+            {
+                "name": "Death",
+                "path": "Assets/Enemies/Skeleton/Death/",
+                "source": "Death.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 10
+            },
+            {
+                "name": "Hit",
+                "path": "Assets/Enemies/Skeleton/Hit/",
+                "source": "Hit.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 10
+            }
+        ]
+    },
+    {
+        "name": "Mushroom",
+        "assetPath": "Assets/Enemies/Mushroom/",
+        "animations": [
+            {
+                "name": "Idle",
+                "path": "Assets/Enemies/Mushroom/Idle/",
+                "source": "Idle.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 8
+            },
+            {
+                "name": "Attack",
+                "path": "Assets/Enemies/Mushroom/Attack/",
+                "source": "Attack.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 10
+            },
+            {
+                "name": "Death",
+                "path": "Assets/Enemies/Mushroom/Death/",
+                "source": "Death.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 8
+            },
+            {
+                "name": "Hit",
+                "path": "Assets/Enemies/Mushroom/Hit/",
+                "source": "Hit.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 8
+            }
+        ]
+    },
+    {
+        "name": "Flying Eye",
+        "assetPath": "Assets/Enemies/Flying Eye/",
+        "animations": [
+            {
+                "name": "Idle",
+                "path": "Assets/Enemies/Flying Eye/Idle/",
+                "source": "Idle.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 8
+            },
+            {
+                "name": "Attack",
+                "path": "Assets/Enemies/Flying Eye/Attack/",
+                "source": "Attack.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 10
+            },
+            {
+                "name": "Death",
+                "path": "Assets/Enemies/Flying Eye/Death/",
+                "source": "Death.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 8
+            },
+            {
+                "name": "Hit",
+                "path": "Assets/Enemies/Flying Eye/Hit/",
+                "source": "Hit.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 8
+            }
+        ]
+    }
+]

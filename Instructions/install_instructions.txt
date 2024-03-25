@@ -1,0 +1,19 @@
+CentOS Specic Install Process: (Basically, I could only get this running on CentOS with Python 3.6.8 and Pygame 1.9.6 for some reason.)
+------------------------------
+1. Run 'sudo yum install python3'
+2. Run 'sudo yum install python3-pip'
+3. Run 'sudo pip3 install pygame==1.9.6 --user'
+
+Any Other Linux Distro (e.g. Ubuntu):
+-------------------------------------
+1. Install Python3 with the distro's package manager
+2. Install Python3-Pip with the distro's package manager
+3. Use pip to install Pygame (The version of Pygame doesn't matter except on CentOS for some reason - this game runs on Python 3.10.12 and Pygame 2.5.2 in Ubuntu and presumably other distros.)
+
+Where to place the game files:
+------------------------------
+You may place the game source code anywhere you would like on your system, so long as you update the provided "game_launcher.sh" bash script with the filepath to the source code.
+
+Note on Raspberry Pi 4 Performance:
+-----------------------------------
+The game runs on Raspberry Pi 4, but it runs at a reduced speed. From my play testing, everything functions correctly, but animations in the game are noticeably slower.

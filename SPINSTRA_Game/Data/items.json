@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Potion",
+        "assetPath": "Assets/Items/Potion/Potion.png",
+        "inBattleOnly": "False",
+        "description": "Restores 30HP.",
+        "rarity": "0.2"
+    },
+    {
+        "name": "Elixir",
+        "assetPath": "Assets/Items/Elixir/Elixir.png",
+        "inBattleOnly": "False",
+        "description": "Restores one usage of the character's class-specific special ability.",
+        "rarity": "0.05"
+    },
+    {
+        "name": "Bomb",
+        "assetPath": "Assets/Items/Bomb/Bomb.png",
+        "inBattleOnly": "True",
+        "description": "Inflicts 30HP of damage on the enemy. Cannot be used outside of battle.",
+        "rarity": "0.2"
+    },
+    {
+        "name": "Auto-Revive",
+        "assetPath": "Assets/Items/Auto-Revive/Auto-Revive.png",
+        "inBattleOnly": "True",
+        "description": "Automatically revives the character with full HP on the event of the character's death in battle.",
+        "rarity": "0.05"
+    },
+    {
+        "name": "Stimulant",
+        "assetPath": "Assets/Items/Stimulant/Stimulant.png",
+        "inBattleOnly": "True",
+        "description": "Boosts the character's attack power for 2 turns. Increased damage is inflicted in on the enemy with each attack for the duration of the effect. Cannot be used outside of battle.",
+        "rarity": "0.1"
+    },
+    {
+        "name": "Tonic",
+        "assetPath": "Assets/Items/Tonic/Tonic.png",
+        "inBattleOnly": "True",
+        "description": "Boosts the character's defense stat for the next enemy attack, meaning that the character takes less damage for the duration of the effect. Cannot be used outside of battle.",
+        "rarity": "0.1"
+    },
+    {
+        "name": "Knife",
+        "assetPath": "Assets/Items/Knife/Knife.png",
+        "inBattleOnly": "True",
+        "description": "Inflicts 10HP of damage on the enemy. Cannot be used outside of battle.",
+        "rarity": "0.3"
+    }
+]

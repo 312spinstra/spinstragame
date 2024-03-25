@@ -1,0 +1,116 @@
+[
+    {
+        "name": "Necromancer",
+        "assetPath": "Assets/Bosses/Necromancer/",
+        "animations": [
+            {
+                "name": "Idle",
+                "path": "Assets/Bosses/Necromancer/Idle/",
+                "source": "Idle.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 10
+            },
+            {
+                "name": "Attack",
+                "path": "Assets/Bosses/Necromancer/Attack/",
+                "source": "Attack.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 12
+            },
+            {
+                "name": "Death",
+                "path": "Assets/Bosses/Necromancer/Death/",
+                "source": "Death.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 10
+            },
+            {
+                "name": "Hit",
+                "path": "Assets/Bosses/Necromancer/Hit/",
+                "source": "Hit.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 10
+            }
+        ]
+    },
+    {
+        "name": "Cthulu",
+        "assetPath": "Assets/Bosses/Cthulu/",
+        "animations": [
+            {
+                "name": "Idle",
+                "path": "Assets/Bosses/Cthulu/Idle/",
+                "source": "Idle.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 10
+            },
+            {
+                "name": "Attack",
+                "path": "Assets/Bosses/Cthulu/Attack/",
+                "source": "Attack.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 12
+            },
+            {
+                "name": "Death",
+                "path": "Assets/Bosses/Cthulu/Death/",
+                "source": "Death.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 10
+            },
+            {
+                "name": "Hit",
+                "path": "Assets/Bosses/Cthulu/Hit/",
+                "source": "Hit.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 10
+            }
+        ]
+    },
+	{
+        "name": "NightBorne",
+        "assetPath": "Assets/Bosses/NightBorne/",
+        "animations": [
+            {
+                "name": "Idle",
+                "path": "Assets/Bosses/NightBorne/Idle/",
+                "source": "Idle.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 12
+            },
+            {
+                "name": "Attack",
+                "path": "Assets/Bosses/NightBorne/Attack/",
+                "source": "Attack.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 12
+            },
+            {
+                "name": "Death",
+                "path": "Assets/Bosses/NightBorne/Death/",
+                "source": "Death.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 10
+            },
+            {
+                "name": "Hit",
+                "path": "Assets/Bosses/NightBorne/Hit/",
+                "source": "Hit.png",
+                "frames": "frames.json",
+                "scale": 1.5,
+                "FPS": 12
+            }
+        ]
+    }
+]

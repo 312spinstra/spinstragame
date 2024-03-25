@@ -1,0 +1,72 @@
+Player Guide: SPINSTRA Python Game
+-----------------------------------
+This game is an RPG (sort of). The aim of the game is to keep your character alive through bouts of turn-based combat and boss battles until you've finished all the levels.
+
+
+Character Class:
+----------------
+There are three classes in the game: Knight, Wizard, and Thief. Each of these classes has a unique special ability, so be sure to consider carefully before choosing. At the beginning of each level, you are granted one use of your class's special ability. Once you use it, it's gone. However, if you find an Elixir, you can consume it to replenish a use of your special ability. However, you can have no more than three uses of a special ability stored up.
+
+
+Progressing through Levels:
+---------------------------
+Your goal in each level is to find the room that contains the Boss Key. You cannot enter the Boss Room at the end of the level without the Boss Key, and you cannot progress to the next level unless you defeat the current level's boss. After completing a level, your character will gain an additional 10 health points, and their HP will be refilled to its maximum value.
+
+
+Room Types:
+-----------
+There are four different types of room in the game, and they are as follows:
+    1) Battle Room - a room where you must engage in turn-based combat with an enemy
+    2) Treasure Room - a room where you will receive an item as a reward if you complete the challenge successfully
+    3) Mystery Room - a room that has a random chance to either be a Battle or a Treasure Room
+    4) Boss Room - a room containing the level's boss
+
+In order to proceed to a different room, either the room you're currently in must already be completed or you must be going to a completed room. In other words, you need to complete rooms to progress, but you don't have to complete all of them. If you get lucky and find the Boss Key early, you can cut a direct path to the Boss Room if you so desire. No need to explore all the corridors.
+
+
+Battle System:
+--------------
+As mentioned above, this game has turn-based combat. Battles always give you, the user, the first turn. You will be able to either attempt an attack, use a special ability, or use an item. There's no uncertainty when using an item or a special ability - it will succeeed. However, if you select the attack option, you will be presented with a question. If you answer this question correctly, you will attack the enemy. Otherwise, your attack will fail, and it will be the enemy's turn.
+
+The enemy will ask you a question each time it is their turn. If you answer it correctly, you block the attack. If answered incorrectly, the enemy will attack and damage you.
+
+
+Boss Battles:
+-------------
+Boss enemies have more strength than the run-of-the-mill enemies you will find in each level. As such, boss battles are more "high stakes" than normal battles. Bosses have more HP than normal enemies and do double damage. Be careful and use items and special abilities wisely!
+
+
+Items:
+------
+Here's a list of each of the items in the game and their functions:
+
+    - Potion: Restores 30HP.
+    - Elixir: Restores one usage of the character's class-specific special ability.
+    - Bomb: Inflicts 30HP of damage on the enemy. Cannot be used outside of battle.
+    - Auto-Revive: Automatically revives the character with full HP on the event of the character's death in battle.
+    - Stimulant: Boosts the character's attack power for 2 turns. Increased damage is inflicted in on the enemy with each attack for the duration of the effect. Cannot be used outside of battle.
+    - Tonic: Boosts the character's defense stat for the next enemy attack, meaning that the character takes less damage for the duration of the effect. Cannot be used outside of battle.
+    - Knife: Inflicts 10HP of damage on the enemy. Cannot be used outside of battle.
+    - Boss Key: The key that opens the Boss Room.
+
+As the descriptions suggest, some items can only be used during battle. Others can be used at any time - even from the Level Map Overview screen. The items also have varying degrees of rarity, so you will encounter some more often than others.
+
+
+Review Topics:
+--------------
+When setting up your character, you must choose a list of Review Topics that you wish to be tested on. However, these aren't set in stone. They can be accessed and edited from the Pause Menu, which can be reached by pressing the "Esc" key.
+
+
+Stats:
+------
+The Stats screen is accessible from the Pause Menu. This screen shows you each of the Review Topics you've had throughout your playthrough and presents information regarding your peformance in each topic so far.
+
+
+Saving the Game:
+----------------
+Each time you complete a room in the level, the game auto-saves for you. However, you can manually save by opening the Pause Menu and selecting the "Save and Quit" option.
+
+
+Loading the Game:
+-----------------
+You can load a saved game by selecting the "Continue" option in the Main Menu and entering the password you set up when you created your character.

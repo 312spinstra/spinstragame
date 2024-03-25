@@ -1,0 +1,28 @@
+Running the Game:
+-----------------
+The game can either be run by executing the provided Bash script or cd'ing into the game directory and running "python main.py"
+
+
+
+Building Levels:
+----------------
+There's a couple example of levels in the "levels.json" file inside the "Data" directory. Level maps should be 15x15. "r" stands for room, "h" stands for hallway, and "_" stands for nothing. You cannot dictate the type of each room, as this is randomly determined by the game whenever it loads the level. You must, however, dictate the entry and exit point of each level in the JSON file. The entry point will always be the starting room for the player, and the exit point will always be the Boss Room.
+
+
+
+Adding Questions and Review Topics:
+-----------------------------------
+Review questions are stored the in the "Questions" subdirectory inside the "Data" directory. Each of the topics has its own subdirectory, and the name of that subdirectory is what will appear as the topic name in-game, so name these wisely. Inside each of the topic subdirectories is a "questions.csv" file. Look at these for an example on how to implement your own questions. Currently, there are two question types - regular and multiple-choice. If you do not fill out any of the "IncorrectAnswerX" fields, the game will infer that the question is of regular type. Otherwise, it will be set as multiple-choice. The format of these CSV files can be extended if you wish to implement different question types.
+
+
+
+Implementing New Question Types:
+--------------------------------
+As mentioned above, it is possible to implement new question types by extending the structure of the question CSV files. In order to actually add the functionality for any new question types you implement, you will need to edit the "determineQuestionType" and "checkAnswer" functions in utils.py. As mentioned above, the only two question types which have been implemented are regular and multiple-choice, both of which use simple string matching to determine if an answer is correct. I recognize that this is not sufficient for all sorts of questions, so feel free to implement a more sophisticated answer-checking algorithm. Just be sure that whatever you write is integrated into the "checkAnswer" function.
+
+
+
+
+Questions/Game-Breaking Bugs:
+-----------------------------
+If you have any questions about the game's operation or encounter any game-breaking bugs, please contact the 17TRSS ITU and ask to speak with Andrew Crawford.
