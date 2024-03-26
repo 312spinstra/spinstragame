@@ -1,3 +1,6 @@
 Difficulty,Question,Answer,Feedback,Incorrect1,Incorrect2,Incorrect3
 0,What is your reference point in the celestial sphere?,First Point of Aries,Get to studying!
 0,What is the most accurate coordinate system that takes gravity oblateness and electromagnetism into account?,WGS-84,Get to studying!,GPS,Celestial Sphere,Molnya
+0,What kind of orbit is a sun-synchronus orbit?,LEO,LEO,HEO,Geosynchronous,Geostationary
+0,If Amazon wanted to scan the entire Earth to plan its ideal hostile takeover what kind of orbit would they employ?,Polar,A polar orbit has a ground track that will eventually cover the enitre Earth.,Geostationary,Molyna,Highly-Elliptical
+0,If it is 1600 here and 0900 in Grenich England what is the NATO Phonetic designator of the local timezone?,Golf,Grenich is Zulu and the International Date Line is Mike that makes +7 Golf.

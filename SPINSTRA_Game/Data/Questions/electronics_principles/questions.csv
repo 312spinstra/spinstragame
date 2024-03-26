@@ -2,3 +2,4 @@ Difficulty,Question,Answer,Feedback,Incorrect1,Incorrect2,Incorrect3
 0,If an A/C circuit with a 60 volt source has a resistance of 30 ohms what will its amperage be if a 10 ohm resistor is added in series?,1.5,Using ohm's law you can determine voltage current and resistance if you have two of the other.
 0,Which law describes the relationship between voltage current and resistance?,Ohm's law,Ohm's law states that you can determine voltage current and resistance if you have two of the other.,Kirchoff's Law,2nd Law of Thermodynamics,Ideal Gas Law
 0,Which component increases resistance as frequency is increased?,Inductor,Inductors do not like it when the frequency changes often.,Capacitor,Potentiometer,Diode
+0,Which component allows current to flow in one direction?,Diode,Diodes allow for flow in one direction under proper load.,Resistor,Capacitor,Switch
