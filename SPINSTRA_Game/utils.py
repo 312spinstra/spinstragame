@@ -60,7 +60,7 @@ def determineQuestionType(questionInfo):
 # Function that checks whether or not an answer to a question is correct    
 def checkAnswer(userAnswer, questionInfo):
     if questionInfo["type"] == "regular" or questionInfo["type"] == "multiple-choice":
-        if questionInfo["Answer"] != userAnswer.strip():
+        if questionInfo["Answer"].lower() != userAnswer.strip().lower():
             return False
     return True
 #------------------------------#
