@@ -1,7 +1,6 @@
-Difficulty,Question,Answer,Feedback,Incorrect1,Incorrect2,Incorrect3
-0,What type of nuclear device involves two sub-critical masses?,Gun Type,The two sub-critical masses are fired at eachother like a gun and together achieve supercriticality.
-0,What kind of nuclear reactor does not have a moderator?,Heavy Water Reactor,The heavy water in a heavy water reactor acts as both the coolant and moderator.
-0,Longitudinal waves cannot propogate through a liquid.,False,Longitudinal waves can propogate through a liquid compression or transverse waves cannot,True
-0,Which of these is not a seismic discontinuity?,Bellman-Ford,The three most important discontinuities are the Mohorovicic Gutenberg and Lehman,Mohorovicic,Gutenberg,Lehman
-0,Which type of atenna array allows the signal to be 'directed?',Phased Array,Phased array creates an intentional 'lag' in different parts of the array essentially directing its focus,Synthetic Aperature,Omnistatic,Bistatic
-0,Which of these phenomenon describes a photon hitting an electron and exciting it and then the electron emitting a photon when it calms down?,Compton Effect,The Compton Effect,Rayleigh Scattering,Pauli Exclusion,Sunspread Dispersion
+Difficulty;Question;Answer;Feedback;Incorrect1;Incorrect2;Incorrect3
+0;What type of nuclear bomb involves two sub-critical masses?;Gun Type;The two sub-critical masses are fired at eachother like a gun and together achieve supercriticality.
+0;True or False: Longitudinal waves cannot propogate through a liquid.;False;Longitudinal waves can propogate through a liquid. Compression or transverse waves cannot.;True
+0;Which of these is not a seismic discontinuity?;Bellman-Ford;The three most important discontinuities are the Mohorovicic, Gutenberg, and Lehman.;Mohorovicic;Gutenberg;Lehman
+0;Which type of atenna array allows the signal to be 'directed?';Phased Array;Phased array creates an intentional 'lag' in different parts of the array essentially directing its focus.;Synthetic Aperature;Omnistatic;Bistatic
+0;Which of these phenomenon describes a photon hitting an electron and exciting it, then the electron emitting a photon when it calms down?;Compton Effect;Correct Answer: Compton Effect;Rayleigh Scattering;Pauli Exclusion;Sunspread Dispersion

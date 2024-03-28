@@ -1,2 +1,2 @@
-Difficulty,Question,Answer,Feedback,Incorrect1,Incorrect2,Incorrect3
-0,Find f(x) if f(x)=2x+4 and x is 8,20,Subsitute x with 8 and solve the equation from there.
+Difficulty;Question;Answer;Feedback;Incorrect1;Incorrect2;Incorrect3
+0;Find f(x) if f(x)=2x+4 and x is 8;20;Subsitute x with 8 and solve the equation from there.

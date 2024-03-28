@@ -476,7 +476,7 @@ class CEngine:
         filepath = "Data/Questions/" + topic.lower() + "/questions.csv"
 
         # Load the questions from the CSV file
-        unfilteredQuestions = loadCSVFile(filepath)
+        unfilteredQuestions = loadCSVFilequestions(filepath)
 
         # Get all questions less than or equal to the requested difficulty max
         questions = []

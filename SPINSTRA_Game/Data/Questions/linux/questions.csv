@@ -1,3 +1,3 @@
-Difficulty,Question,Answer,Feedback,Incorrect1,Incorrect2,Incorrect3
-0,What is the command to see ALL files in your current directory?,ls -a,ls shows the files in your current directory and the flag of -a shows all files.
-0,What command is required to delete a folder filled with files?,rm -r,rm deletes a file and -r recursively deletes everything located within that file.
+Difficulty;Question;Answer;Feedback;Incorrect1;Incorrect2;Incorrect3
+0;What is the command to see ALL files in your current directory?;ls -a;ls shows the files in your current directory and the flag of -a shows all files.
+0;What command is required to delete a directory filled with files?;rm -r;rm deletes a file and -r recursively deletes everything located within that file.

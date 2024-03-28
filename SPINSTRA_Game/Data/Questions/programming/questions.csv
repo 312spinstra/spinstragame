@@ -1,6 +1,6 @@
-Difficulty,Question,Answer,Feedback,Incorrect1,Incorrect2,Incorrect3
-0,What python data structure contains key-value pairs?,Dictionary,Think of how a real dictionary contains words or keys that can be looked up to find their definitions or values.
-0,Will this code error? number = int(input('Please enter a number: ),Yes,There is a quotation mark missing at the end of the string.
-0,Measuring temperature yeilds what kind of data?,Continuous,Continuous data is data that can be measured with an infinite range between each value.,Discrete,Ordinal,Binary
-0,In tabular data records refer to,Rows,Get to studying!,Columns,Attributes,Instances
-0,Whats wrong with the following code? if a >= 10 or if b >20:,No 'if' is needed after the 'or',Go practice using if statements.,There needs to be a space before the 2 in '20','bruh' and 'yeet' are strings and can't be compared,The '=' needs to come before the '>'
+Difficulty;Question;Answer;Feedback;Incorrect1;Incorrect2;Incorrect3
+0;What python data structure contains key-value pairs?;Dictionary;Think of how a real dictionary contains words or keys that can be looked up to find their definitions or values.
+0;True or False: This code will error: number = int(input('Please enter a number: );True;There is a quotation mark missing at the end of the string.,False
+0;Measuring temperature yeilds what kind of data?;Continuous;Continuous data is data that can be measured with an infinite range between each value.;Discrete;Ordinal;Binary
+0;In tabular data, records refer to:;Rows;Correct Answer: Rows;Columns;Attributes;Instances
+0;Whats wrong with the following code: if a >= 10 or if b >20:;No 'if' is needed after the 'or';Go practice using if statements.;There needs to be a space before the 2 in '20';'a' and 'b' are strings and can't be compared;The '=' needs to come before the '>'

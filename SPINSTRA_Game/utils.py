@@ -24,6 +24,16 @@ def loadCSVFile(filepath):
             rows.append(row)
         csvfile.close()
     return rows
+
+
+def loadCSVFilequestions(filepath):
+    rows = []
+    with open(filepath, newline='') as csvfile:
+        reader = csv.DictReader(csvfile, delimiter=';')
+        for row in reader:
+            rows.append(row)
+        csvfile.close()
+    return rows
 #------------------------------#
 
 #------------------------------#
@@ -42,7 +52,7 @@ def determineQuestionType(questionInfo):
     questionInfo["type"] = "regular"
 
     # Determine the question type based on whether or not the "IncorrectAnswerX" fields have been filled out
-    if (questionInfo["Incorrect1"] != None or questionInfo["Incorrect2"] != None or questionInfo["Incorrect3"] != None):
+    if (questionInfo["Incorrect1"] != '' or questionInfo["Incorrect2"] != '' or questionInfo["Incorrect3"] != ''):
             questionInfo["type"] = "multiple-choice"
             questionInfo["incorrectAnswers"] = []
 
