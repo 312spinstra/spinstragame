@@ -153,7 +153,7 @@ class CEngine:
         pygame.init()
         pygame.display.set_caption(self.title)
         pygame.mouse.set_cursor(*pygame.cursors.tri_left)
-        self.canvas = pygame.display.set_mode((screenWidth, screenHeight))
+        self.canvas = pygame.display.set_mode((screenWidth, screenHeight), pygame.RESIZABLE)
         self.clock = pygame.time.Clock()
         self.fps = fps
         self.deltaTime = math.ceil(1/self.fps * 1000)
@@ -476,7 +476,7 @@ class CEngine:
         filepath = "Data/Questions/" + topic.lower() + "/questions.csv"
 
         # Load the questions from the CSV file
-        unfilteredQuestions = loadCSVFile(filepath)
+        unfilteredQuestions = loadCSVFilequestions(filepath)
 
         # Get all questions less than or equal to the requested difficulty max
         questions = []
