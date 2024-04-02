@@ -153,7 +153,7 @@ class CEngine:
         pygame.init()
         pygame.display.set_caption(self.title)
         pygame.mouse.set_cursor(*pygame.cursors.tri_left)
-        self.canvas = pygame.display.set_mode((screenWidth, screenHeight))
+        self.canvas = pygame.display.set_mode((screenWidth, screenHeight), pygame.RESIZABLE)
         self.clock = pygame.time.Clock()
         self.fps = fps
         self.deltaTime = math.ceil(1/self.fps * 1000)

@@ -1,9 +1,13 @@
+import os
+
 # Game window options
-SCREEN_WIDTH = 1600
-SCREEN_HEIGHT = 900
+SCREEN_WIDTH = 1920
+SCREEN_HEIGHT = 1080
 GAME_FPS = 60
 GAME_TITLE = "SPINSTRA Python Game"
 WINDOW_CLEAR_COLOR = (0, 0, 0, 0)
+
+os.environ['SDL_VIDEO_CENTERED'] = '1'
 
 # Colors
 BLACK = (0, 0, 0)
